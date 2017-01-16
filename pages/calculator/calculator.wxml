@@ -1,0 +1,35 @@
+
+<!--pages/calculator/calculator.wxml-->
+<view class="content">
+  <text class="resultText">{{resultNum}}</text>
+  <view class="btnGroup">
+    <view class="item one" id="back" bindtap="backScreen">退格</view>
+    <view class="item one" id="clear" bindtap="clearScreen">清屏</view>
+    <view class="item one" id="nagetive" bindtap="nagetive">+/-</view>
+    <view class="item one" id="add" bindtap="clickSymbol">+</view>
+  </view>
+  <view class="btnGroup">
+    <view class="item two" id="9" bindtap="clickNumber">9</view>
+    <view class="item two" id="8" bindtap="clickNumber">8</view>
+    <view class="item two" id="7" bindtap="clickNumber">7</view>
+    <view class="item two" id="sub" bindtap="clickSymbol">-</view>
+  </view>
+  <view class="btnGroup">
+    <view class="item two" id="6" bindtap="clickNumber">6</view>
+    <view class="item two" id="5" bindtap="clickNumber">5</view>
+    <view class="item two" id="4" bindtap="clickNumber">4</view>
+    <view class="item two" id="mul" bindtap="clickSymbol">*</view>
+  </view>
+  <view class="btnGroup">
+    <view class="item two" id="3" bindtap="clickNumber">3</view>
+    <view class="item two" id="2" bindtap="clickNumber">2</view>
+    <view class="item two" id="1" bindtap="clickNumber">1</view>
+    <view class="item two" id="div" bindtap="clickSymbol">/</view>
+  </view>
+  <view class="btnGroup">
+    <view class="item two" id="." bindtap="clickDot">.</view>
+    <view class="item two" id="0" bindtap="clickNumber">0</view>
+    <view class="item two" id="rem" bindtap="clickSymbol">%</view>
+    <view class="item two" id="result" bindtap="clickSymbol">=</view>
+  </view>
+</view>
