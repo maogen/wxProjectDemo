@@ -1,0 +1,6 @@
+
+<!--pages/main/main.wxml-->
+<block wx:for="{{mainType}}">
+  <view bindtap="selectType" id="{{item.id}}">{{item.title}}</view>
+  <view class="list_buttom"></view>
+</block>

@@ -1,0 +1,12 @@
+/* pages/onlineVedio/online.wxss */
+
+.item_view {
+  float: left;
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  background: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

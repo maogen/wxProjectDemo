@@ -1,0 +1,2 @@
+<!--pages/onlineVedio/onlineTwo.wxml-->
+<text id="showText">当前课程是：{{itemId}}</text>

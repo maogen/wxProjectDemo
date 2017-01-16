@@ -1,0 +1,10 @@
+
+<!--pages/onlineVedio/online.wxml-->
+<view>课程目录</view>
+
+<!-- 列表渲染 -->
+<block wx:for="{{videoType}}">
+  <view class="item_view" id="{{item}}" bindtap="selectWithId">
+    <view>{{item}}</view>
+  </view>
+</block>
